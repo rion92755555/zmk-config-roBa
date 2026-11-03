@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&kp LBRC        &kp QUESTION  &kp EXCLAMATION  &kp AMPERSAND  &kp ASTERISK                      &kp LEFT_PARENTHESIS  &kp LEFT  &kp UP    &kp RIGHT  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp RCTRL     &kp EQUAL        &kp ASTERISK   &kp COLON     &none       &none   &kp K                 &mkp MB1  &kp DOWN  &mkp MB2   &kp SLASH
-&kp Z           &kp X         &kp C            &kp V          &kp DEL       &none       &trans  &kp INTERNATIONAL_5   &none     &kp F2    &none      &none
-&kp ESCAPE      &kp NUMBER_0  &kp PERIOD       &trans         &trans        &trans      &trans  &kp RCTRL                                            &none
+&kp LBRC        &kp QUESTION  &kp EXCLAMATION  &kp LS(NUMBER_7)  &kp ASTERISK                      &kp LEFT_PARENTHESIS  &kp LEFT  &kp UP    &kp RIGHT  &kp BACKSPACE
+&kp LEFT_SHIFT  &kp RCTRL     &kp LS(EQUAL)    &kp LS(NUMBER_8)  &kp COLON     &none       &none   &kp K                 &mkp MB1  &kp DOWN  &mkp MB2   &kp SLASH
+&kp Z           &kp X         &kp C            &kp V             &kp DEL       &none       &trans  &kp INTERNATIONAL_5   &none     &kp F2    &none      &none
+&kp ESCAPE      &kp NUMBER_0  &kp PERIOD       &trans            &trans        &trans      &trans  &kp RCTRL                                            &none
             >;
         };
 
