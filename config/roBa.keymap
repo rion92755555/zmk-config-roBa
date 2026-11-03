@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp E  &kp R            &kp T                                            &kp Y      &kp U  &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D  &kp F            &kp G        &msc MOVE_Y(10)      &none          &kp H      &kp J  &kp K      &kp L    &kp MINUS
-&kp Z  &kp X  &kp C  &kp V            &kp B        &none                &none          &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&none  &none  &none  &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 COMMA          &kp BACKSPACE  &kp ENTER                             &kp PRINTSCREEN
+&kp Q  &kp W  &kp E  &kp R            &kp T                                               &kp Y      &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D  &kp F            &kp G        &msc (MOVE_Y(-10))      &none          &kp H      &kp J  &kp K      &kp L    &kp MINUS
+&kp Z  &kp X  &kp C  &kp V            &kp B        &none                   &none          &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&none  &none  &none  &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 COMMA             &kp BACKSPACE  &kp ENTER                             &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -101,7 +101,7 @@
         NUM {
             bindings = <
 &kp LBRC        &kp QUESTION  &kp EXCLAMATION  &kp AMPERSAND  &kp ASTERISK                      &kp LEFT_PARENTHESIS  &kp LEFT  &kp UP    &kp RIGHT  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp RCTRL     &kp MINUS        &kp EQUAL      &kp COLON     &none       &none   &kp K                 &mkp MB1  &kp DOWN  &mkp MB2   &kp SLASH
+&kp LEFT_SHIFT  &kp RCTRL     &kp EQUAL        &kp ASTERISK   &kp COLON     &none       &none   &kp K                 &mkp MB1  &kp DOWN  &mkp MB2   &kp SLASH
 &kp Z           &kp X         &kp C            &kp V          &kp DEL       &none       &trans  &kp INTERNATIONAL_5   &none     &kp F2    &none      &none
 &kp ESCAPE      &kp NUMBER_0  &kp PERIOD       &trans         &trans        &trans      &trans  &trans                                               &none
             >;
