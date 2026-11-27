@@ -159,6 +159,8 @@
 &kp Z           &kp X         &kp C            &kp V                 &kp DEL       &trans      &trans  &kp INT5              &trans          &kp F2          &trans     &trans
 &trans          &trans        &trans           &trans                &trans        &trans      &trans  &kp RCTRL                                                        &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_8 {
